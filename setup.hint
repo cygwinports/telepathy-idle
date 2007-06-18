@@ -1,0 +1,4 @@
+category: Net
+requires: cygwin glib2 libdbus-glib_1_2 libgetaddrinfo0 openssl telepathy-glib
+sdesc: "Telepathy IRC connection manager"
+ldesc: "Telepathy IRC connection manager"
