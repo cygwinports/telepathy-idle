@@ -3,25 +3,24 @@ telepathy-idle
 Telepathy IRC connection manager
 
 Runtime requirements:
-  cygwin-1.5.24-2
-  glib2-2.12.12-1
-  libdbus-glib_1_2-0.73-1
-  libgetaddrinfo0-1.6.3-2
-  openssl-0.9.8e-3
-  telepathy-glib-0.5.13-1
+  cygwin-1.5.25-15
+  glib2-2.16.3-1
+  libdbus-glib_1_2-0.74-1
+  libgetaddrinfo0-1.6.3-3
+  libtelepathy-glib0-0.7.10-1
+  openssl-0.9.8h-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.24-2
   autoconf2.5-2.61-1
   automake1.9-1.9.6-2
-  binutils-20060817-1
-  cygport-0.2.11-1
-  gawk-3.1.5-4
+  binutils-20080523-1
+  cygport-0.3.11-1
+  gawk-3.1.6-1
   gcc-core-3.4.4-3
-  libtool1.5-1.5.23a-2
+  libtool-2.2.2-2
   make-3.81-1
-  pkg-config-0.21-1
+  pkg-config-0.23a-2
   sed-4.1.5-2
 
 Canonical website:
@@ -33,15 +32,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack telepathy-idle-0.1.1-X-src.tar.bz2
+  unpack telepathy-idle-0.1.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./telepathy-idle-0.1.1-X.cygport all
+  cygport ./telepathy-idle-0.1.2-X.cygport all
 
 This will create:
-  /usr/src/telepathy-idle-0.1.1-X-src.tar.bz2
-  /usr/src/telepathy-idle-0.1.1-X.tar.bz2
+  /usr/src/telepathy-idle-0.1.2-X-src.tar.bz2
+  /usr/src/telepathy-idle-0.1.2-X.tar.bz2
 
 -------------------------------------------
 
@@ -49,15 +48,17 @@ Files included in the binary package:
 
   /usr/bin/telepathy-idle.exe
   /usr/share/dbus-1/services/org.freedesktop.Telepathy.ConnectionManager.idle.service
-  /usr/share/doc/Cygwin/telepathy-idle-0.1.1.README
-  /usr/share/doc/telepathy-idle-0.1.1/AUTHORS
-  /usr/share/doc/telepathy-idle-0.1.1/COPYING
-  /usr/share/doc/telepathy-idle-0.1.1/INSTALL
+  /usr/share/doc/telepathy-idle-0.1.2/AUTHORS
+  /usr/share/doc/telepathy-idle-0.1.2/COPYING
+  /usr/share/doc/telepathy-idle-0.1.2/INSTALL
   /usr/share/telepathy/managers/idle.manager
 
 ------------------
 
 Port Notes:
+
+----- version 0.1.2-1 -----
+Version bump.
 
 ----- version 0.1.1-1 -----
 Initial release for Cygwin.
