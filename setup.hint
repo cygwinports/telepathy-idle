@@ -1,4 +1,4 @@
 category: Net
-requires: cygwin libdbus-glib_1_2 libgcc1 libglib2.0_0 libtelepathy-glib0 openssl
+requires: libdbus-glib_1_2 libgcc1 libglib2.0_0 libtelepathy-glib0 openssl
 sdesc: "Telepathy IRC connection manager"
 ldesc: "Telepathy IRC connection manager"
