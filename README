@@ -3,24 +3,26 @@ telepathy-idle
 Telepathy IRC connection manager
 
 Runtime requirements:
-  cygwin-1.7.0-48
-  libdbus-glib_1_2-0.80-10
-  libgcc1-4.3.2-2
-  libglib2.0_0-2.20.3-1
-  libtelepathy-glib0-0.7.31-1
-  openssl-0.9.8k-2
+  cygwin-1.7.1-1
+  libdbus-glib_1_2-0.82-1
+  libgcc1-4.3.4-3
+  libglib2.0_0-2.22.4-1
+  libtelepathy-glib0-0.10.0-1
+  openssl-0.9.8l-2
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.63-10
-  automake1.9-1.9.6-10
-  binutils-20080624-2
-  cygport-0.9.6-1
-  gawk-3.1.6-2
-  gcc4-core-4.3.2-2
-  libtool-2.2.7a-12
+  autoconf2.5-2.65-1
+  automake1.11-1.11.1-1
+  binutils-2.19.51-1
+  cygport-0.9.80-1
+  gawk-3.1.7-1
+  gcc4-core-4.3.4-3
+  libtool-2.2.7a-15
   make-3.81-2
   pkg-config-0.23b-10
+  python-2.5.4-10
+  python-twisted-8.2.0-1
   sed-4.1.5-2
 
 Canonical website:
@@ -32,31 +34,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack telepathy-idle-0.1.4-X-src.tar.bz2
+  unpack telepathy-idle-0.1.5-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./telepathy-idle-0.1.4-X.cygport all
+  cygport ./telepathy-idle-0.1.5-X.cygport all
 
 This will create:
-  /usr/src/telepathy-idle-0.1.4-X-src.tar.bz2
-  /usr/src/telepathy-idle-0.1.4-X.tar.bz2
+  /usr/src/telepathy-idle-0.1.5-X-src.tar.bz2
+  /usr/src/telepathy-idle-0.1.5-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/lib/telepathy/telepathy-idle.exe
-  /usr/share/dbus-1/services/org.freedesktop.Telepathy.ConnectionManager.idle.service
-  /usr/share/doc/telepathy-idle/AUTHORS
-  /usr/share/doc/telepathy-idle/COPYING
-  /usr/share/doc/telepathy-idle/NEWS
-  /usr/share/man/man8/telepathy-idle.8.gz
-  /usr/share/telepathy/managers/idle.manager
-
-------------------
-
 Port Notes:
+
+----- version 0.1.5-1 -----
+Version bump.
 
 ----- version 0.1.4-1 -----
 Version bump.
