@@ -1,7 +1,7 @@
 inherit gnome2
 
 NAME="telepathy-idle"
-VERSION=0.1.16
+VERSION=0.2.0
 RELEASE=1
 CATEGORY="Net"
 SUMMARY="Telepathy IRC connection manager"
